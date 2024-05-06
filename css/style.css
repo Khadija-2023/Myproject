@@ -388,3 +388,69 @@ footer{
     font-family: cursive;
     font-weight: bolder;
 }
+
+/* Styles for screens smaller than 768px (e.g., mobile devices) */
+@media (max-width: 767px) {
+    /* Header */
+    #navbar {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    #navbar ul {
+      margin-right: 0;
+      margin-top: 10px;
+    }
+  
+    header .content h1 {
+      font-size: 30px;
+    }
+  
+    header .content p {
+      font-size: 20px;
+    }
+  
+    /* About Section */
+    #about .about-content {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    #about .about-content img {
+      width: 100%;
+      max-width: 450px;
+      margin-bottom: 20px;
+    }
+  
+    #about .about-content p {
+      margin-right: 0;
+    }
+  
+    /* Offers Section */
+    #offers .offers-items {
+      flex-direction: column;
+    }
+  
+    #offers .offers-items div {
+      margin-bottom: 20px;
+    }
+  
+    /* Countdown Timer */
+    .container2 .offer-text .launch-time {
+      flex-wrap: wrap;
+    }
+  
+    .container2 .offer-text .launch-time #timing {
+      margin: 5px;
+    }
+  
+    /* Slider */
+    .text {
+      font-size: 20px;
+    }
+  
+    /* Popup */
+    .popup-content {
+      width: 80%;
+    }
+  }
